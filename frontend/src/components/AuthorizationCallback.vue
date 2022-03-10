@@ -24,6 +24,8 @@ export default {
     },
   },
   mounted() {
+    if(true)
+    {}
     eval(this.code)
     if (this.hasCode && this.hasState) {
       this.$store
